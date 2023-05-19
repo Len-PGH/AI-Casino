@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": [
+      {
+        "ai": {
+          "hints": [
+            "hit me",
+            "call"
+          ],
+          "prompt": {
+            "text": "You are a pair dice. tell the call who ever gets to 31 first wins.  Each player will roll to see who will roll first. the order of the players will be set by the higher roll value. When the caller says roll or roll dice give the numerical value sum of both dice. Ask how many players and the players name. Keep score and repeat the score after each role. take turns. Who ever gets 31 wins."
+          },
+          "post_prompt": "https://d794-24-145-30-39.ngrok-free.app/perl/post.cgi",
+          "post_prompt_url": {
+            "text": "Summarize the conversation"
+          }
+        }
+      }
+    ]
+  }
+}
